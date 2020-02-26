@@ -1,9 +1,7 @@
 <html>
 	<head>
 		<title>Google</title>
-		 <link rel="stylesheet"
-          href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+		<script src="https://kit.fontawesome.com/2122b9900e.js" crossorigin="anonymous"></script>
     
 		<style type="text/css">
 			* {
@@ -46,7 +44,7 @@
 			nav ul span:first-of-type li:last-of-type {
 				margin:0 13%;
 			}
-			nav ul span:last-of-type li:first-of-type {
+			nav ul span:last-of-type li:nth-child(2n) {
 				margin: 0 13%;
 			}
 			nav ul span {margin-top:2%;}
@@ -55,6 +53,9 @@
 				font-size: 13.5px;
 				text-decoration: none;
 				color: #666;
+			}
+			.menu-grid-icon {
+
 			}
 			main {
 				height: 100%;
@@ -125,6 +126,7 @@
 				<span>
 				<li><a href="">Gmail</a></li>
 				<li><a href="">Images</a></li>
+				<li class="menu-grid-icon"><a href=""><i class="fas fa-th"></i></a></li>
 				</span>
 			</ul>
 		</nav>
