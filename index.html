@@ -42,10 +42,10 @@
 				justify-content: flex-end;
 			}
 			nav ul span:first-of-type li:last-of-type {
-				margin:0 13%;
+				margin:0 14%;
 			}
 			nav ul span:last-of-type li:nth-child(2n) {
-				margin: 0 13%;
+				margin: 0 14%;
 			}
 			nav ul span {margin-top:2%;}
 			nav ul li a,
@@ -54,8 +54,9 @@
 				text-decoration: none;
 				color: #666;
 			}
-			.menu-grid-icon {
-
+			.menu-grid-icon i{
+				font-size: 19px;
+				font-style: normal;
 			}
 			main {
 				height: 100%;
@@ -74,6 +75,29 @@
 			  font-size: 18px;
 			  color:#ccc;
 			}
+			.menu-profile-image {
+				border-top: 2px solid red;
+				border-right: 2px solid blue;
+				
+				border-bottom: 2px solid green;
+				border-left: 2px solid orange;
+				/*border-image:   linear-gradient(to right, blue 25%, yellow 25%, yellow 50%,red 50%, red 75%, green 75%) 5;*/
+				padding: 2px;
+				height: 39px;
+				width: 39px;
+				border-radius: 50%;
+				margin: -9px 14% !important;
+			}
+			.menu-profile-image img {
+				width: 33px;
+				height: 33px;
+				border-radius: 50%;
+				padding: 1px;
+				margin: -1px;
+			} 
+			/*.menu-profile-image {
+				border: 1px solid blue;
+			}*/
 			input {
 				border-radius: 22px;
 				display: block;
@@ -127,6 +151,7 @@
 				<li><a href="">Gmail</a></li>
 				<li><a href="">Images</a></li>
 				<li class="menu-grid-icon"><a href=""><i class="fas fa-th"></i></a></li>
+				<li class="menu-profile-image"><a href=""><img src="img/earring.jpg" alt=""></a></li>
 				</span>
 			</ul>
 		</nav>
